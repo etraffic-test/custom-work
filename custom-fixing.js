@@ -1,0 +1,1 @@
+(()=>{const p="/products/peach-boost-gummies",t=new Date("2026-09-23T00:00:00-05:00").getTime();if(location.pathname!==p)return;const c=()=>{if(Date.now()>=t){setTimeout(()=>document.body.style.overflow="hidden",4000)}else setTimeout(c,Math.min(t-Date.now(),5000))};if(document.readyState==="complete")c();else window.addEventListener("load",c,{once:true})})();
